@@ -78,7 +78,7 @@ window.Modernizr = (function( window, document, undefined ) {
 
     // TODO :: make the prefixes more granular
     /*>>prefixes*/
-    // List of property values to set for css tests. See ticket #21
+    // Lists of property values to set for css tests. See ticket #21
     prefixes = ' -webkit- -moz- -o- -ms- '.split(' '),
     /*>>prefixes*/
 
@@ -393,7 +393,7 @@ window.Modernizr = (function( window, document, undefined ) {
 
     /*>>testallprops*/
     /**
-     * testPropsAll tests a list of DOM properties we want to check against.
+     * testPropsAll tests a lists of DOM properties we want to check against.
      *   We specify literally ALL possible (known and/or likely) properties on
      *   the element including the non-vendor prefixed one, for forward-
      *   compatibility.
@@ -891,7 +891,7 @@ window.Modernizr = (function( window, document, undefined ) {
               attrs.list = !!(document.createElement('datalist') && window.HTMLDataListElement);
             }
             return attrs;
-        })('autocomplete autofocus list placeholder max min multiple pattern required step'.split(' '));
+        })('autocomplete autofocus lists placeholder max min multiple pattern required step'.split(' '));
         /*>>input*/
 
         /*>>inputtypes*/

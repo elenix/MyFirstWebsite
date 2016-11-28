@@ -1,5 +1,5 @@
 ﻿
-@model MyFirstWebsite.Models.LoginModel
+@model MyFirstWebsite.Models.Users
 @{
     ViewBag.Title = "Login";
 }
@@ -11,7 +11,14 @@
 @using (Html.BeginForm())
 {
     
-        @Html.EditorForModel()
+    @Html.LabelFor(u => u.Email)<br />
+    @Html.TextBoxFor(u => u.Email)<br />
+    @Html.LabelFor(u => u.Password)<br />
+    @Html.PasswordFor(u => u.Password)<br />
+    @Html.LabelFor(u => u.Name)<br />
+    @Html.TextBoxFor(u => u.Name)<br />
+    @Html.LabelFor(u => u.Country)<br />
+    @Html.PasswordFor(u => u.Country)<br />
     <br /><p>
               <button type="submit" class="btn btn-info">Login</button>
           </p>

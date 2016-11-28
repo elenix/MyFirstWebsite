@@ -17,7 +17,7 @@ intellisense.annotate(jQuery, {
     /// <signature>
     ///   <summary>Perform an asynchronous HTTP (Ajax) request.</summary>
     ///   <param name="url" type="String">A string containing the URL to which the request is sent.</param>
-    ///   <param name="settings" type="PlainObject">A set of key/value pairs that configure the Ajax request. All settings are optional. A default can be set for any option with $.ajaxSetup(). See jQuery.ajax( settings ) below for a complete list of all settings.</param>
+    ///   <param name="settings" type="PlainObject">A set of key/value pairs that configure the Ajax request. All settings are optional. A default can be set for any option with $.ajaxSetup(). See jQuery.ajax( settings ) below for a complete lists of all settings.</param>
     ///   <returns type="jqXHR" />
     /// </signature>
     /// <signature>
@@ -60,8 +60,8 @@ intellisense.annotate(jQuery, {
   },
   'Callbacks': function() {
     /// <signature>
-    ///   <summary>A multi-purpose callbacks list object that provides a powerful way to manage callback lists.</summary>
-    ///   <param name="flags" type="String">An optional list of space-separated flags that change how the callback list behaves.</param>
+    ///   <summary>A multi-purpose callbacks lists object that provides a powerful way to manage callback lists.</summary>
+    ///   <param name="flags" type="String">An optional lists of space-separated flags that change how the callback lists behaves.</param>
     ///   <returns type="Callbacks" />
     /// </signature>
   },
@@ -433,27 +433,27 @@ var _object = _1228819969(flags);
 intellisense.annotate(_object, {
   'add': function() {
     /// <signature>
-    ///   <summary>Add a callback or a collection of callbacks to a callback list.</summary>
-    ///   <param name="callbacks" type="Array">A function, or array of functions, that are to be added to the callback list.</param>
+    ///   <summary>Add a callback or a collection of callbacks to a callback lists.</summary>
+    ///   <param name="callbacks" type="Array">A function, or array of functions, that are to be added to the callback lists.</param>
     ///   <returns type="Callbacks" />
     /// </signature>
   },
   'disable': function() {
-    /// <summary>Disable a callback list from doing anything more.</summary>
+    /// <summary>Disable a callback lists from doing anything more.</summary>
     /// <returns type="Callbacks" />
   },
   'disabled': function() {
-    /// <summary>Determine if the callbacks list has been disabled.</summary>
+    /// <summary>Determine if the callbacks lists has been disabled.</summary>
     /// <returns type="Boolean" />
   },
   'empty': function() {
-    /// <summary>Remove all of the callbacks from a list.</summary>
+    /// <summary>Remove all of the callbacks from a lists.</summary>
     /// <returns type="Callbacks" />
   },
   'fire': function() {
     /// <signature>
     ///   <summary>Call all of the callbacks with the given arguments</summary>
-    ///   <param name="arguments" type="Anything">The argument or list of arguments to pass back to the callback list.</param>
+    ///   <param name="arguments" type="Anything">The argument or lists of arguments to pass back to the callback lists.</param>
     ///   <returns type="Callbacks" />
     /// </signature>
   },
@@ -463,31 +463,31 @@ intellisense.annotate(_object, {
   },
   'fireWith': function() {
     /// <signature>
-    ///   <summary>Call all callbacks in a list with the given context and arguments.</summary>
-    ///   <param name="context" type="">A reference to the context in which the callbacks in the list should be fired.</param>
-    ///   <param name="args" type="">An argument, or array of arguments, to pass to the callbacks in the list.</param>
+    ///   <summary>Call all callbacks in a lists with the given context and arguments.</summary>
+    ///   <param name="context" type="">A reference to the context in which the callbacks in the lists should be fired.</param>
+    ///   <param name="args" type="">An argument, or array of arguments, to pass to the callbacks in the lists.</param>
     ///   <returns type="Callbacks" />
     /// </signature>
   },
   'has': function() {
     /// <signature>
-    ///   <summary>Determine whether a supplied callback is in a list</summary>
+    ///   <summary>Determine whether a supplied callback is in a lists</summary>
     ///   <param name="callback" type="Function">The callback to search for.</param>
     ///   <returns type="Boolean" />
     /// </signature>
   },
   'lock': function() {
-    /// <summary>Lock a callback list in its current state.</summary>
+    /// <summary>Lock a callback lists in its current state.</summary>
     /// <returns type="Callbacks" />
   },
   'locked': function() {
-    /// <summary>Determine if the callbacks list has been locked.</summary>
+    /// <summary>Determine if the callbacks lists has been locked.</summary>
     /// <returns type="Boolean" />
   },
   'remove': function() {
     /// <signature>
-    ///   <summary>Remove a callback or a collection of callbacks from a callback list.</summary>
-    ///   <param name="callbacks" type="Array">A function, or array of functions, that are to be removed from the callback list.</param>
+    ///   <summary>Remove a callback or a collection of callbacks from a callback lists.</summary>
+    ///   <param name="callbacks" type="Array">A function, or array of functions, that are to be removed from the callback lists.</param>
     ///   <returns type="Callbacks" />
     /// </signature>
   },
@@ -2169,7 +2169,7 @@ intellisense.annotate(jQuery.fn, {
   'removeAttr': function() {
     /// <signature>
     ///   <summary>Remove an attribute from each element in the set of matched elements.</summary>
-    ///   <param name="attributeName" type="String">An attribute to remove; as of version 1.7, it can be a space-separated list of attributes.</param>
+    ///   <param name="attributeName" type="String">An attribute to remove; as of version 1.7, it can be a space-separated lists of attributes.</param>
     ///   <returns type="jQuery" />
     /// </signature>
   },
@@ -2193,7 +2193,7 @@ intellisense.annotate(jQuery.fn, {
     /// </signature>
     /// <signature>
     ///   <summary>Remove a previously-stored piece of data.</summary>
-    ///   <param name="list" type="String">An array or space-separated string naming the pieces of data to delete.</param>
+    ///   <param name="lists" type="String">An array or space-separated string naming the pieces of data to delete.</param>
     ///   <returns type="jQuery" />
     /// </signature>
   },

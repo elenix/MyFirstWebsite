@@ -7,6 +7,7 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap-lumen.css" rel="stylesheet" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <meta name="description" content="The description of my page" />
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -29,7 +30,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="@Url.Action("Logout","Auth")">Logout</a>
+                        <a href="@Url.Action("Registration","Auth")">Register</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Logout", "Auth")">Logout</a>
                     </li>
                 </ul>
             </div>
